@@ -30,7 +30,7 @@ install -d $RPM_BUILD_ROOT%{_bindir}
 	DESTDIR="$RPM_BUILD_ROOT" \
 	bindir=%{_libdir}/%{name}
 
-ln -s %{_libdir}/%{name}/%{name} $RPM_BUILD_ROOT%{_bindir}/%{name}
+ln -s %{_libdir}/%{name}/minerd $RPM_BUILD_ROOT%{_bindir}/%{name}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
