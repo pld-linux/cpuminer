@@ -1,7 +1,7 @@
 Summary:	CPU miner for Litecoin and Bitcoin
 Name:		cpuminer
 Version:	2.3.2
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		Applications/Networking
 Source0:	http://downloads.sourceforge.net/cpuminer/pooler-%{name}-%{version}.tar.gz
